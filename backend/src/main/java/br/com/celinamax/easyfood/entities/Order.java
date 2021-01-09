@@ -33,7 +33,7 @@ public class Order implements Serializable{
 	joinColumns = @JoinColumn(name= "order_id"),
 	inverseJoinColumns = @JoinColumn(name= "product_id"))
 	Set<Product> products = new HashSet<>();
-	
+
 	public Order() {
 		
 	}
