@@ -1,14 +1,17 @@
+
 import './App.css';
 import Navbar from './Navbar';
-import './App.css';
+import Home from './Home';
+
 
 function App() {
   return (
-     <div>
-       <Navbar />
-     </div>
+    <>
+      <Navbar />
+      <Home />
+    </>
   );
-     
+
 }
 
 export default App;
